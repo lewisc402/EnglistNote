@@ -1,0 +1,41 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "antd": "^2.9.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.9.2",
+    "css-loader": "^0.23.1",
+    "draft-js": "^0.10.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "html-webpack-plugin": "^2.29.0",
+    "rc-animate": "^2.3.3",
+    "rc-time-picker": "^2.3.3",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "serve-index": "^1.8.0",
+    "sockjs-client": "^1.1.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint test1.js || exit 0",
+    "start": "webpack-dev-server --inline",
+    "build": "webpack"
+  },
+  "author": "Lewis",
+  "license": "ISC"
+}
